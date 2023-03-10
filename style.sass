@@ -1,0 +1,837 @@
+    
+%button
+    height: 60px
+    background: #4F9CF9
+    border-radius: 8px
+    border: none
+    cursor: pointer
+    span
+        font-family: 'Inter', sans-serif
+        padding: 0 25px
+        font-weight: 500
+        font-size: 18px
+        color: #fff
+    
+
+header
+    .section-menu
+        background: #043873
+        padding: 15px 0
+        .container
+            width: 1320px
+            margin: 0 auto
+            .section
+                display: flex
+                align-items: center
+                justify-content: space-between
+                .menu-list
+                    ul
+                        display: flex
+                        gap: 50px
+                        li
+                            a
+                                text-decoration: none
+                                color: #fff
+                                font-family: 'Inter', sans-serif
+                                font-style: normal
+                                font-weight: 500
+                                font-size: 18px
+                            a:hover
+                                color: #FFE492
+                .menu-button
+                    display: flex
+                    .menu-button_login
+                        button
+                            @extend %button
+                            background: #FFE492
+                            span
+                                padding: 0 40px
+                                color: #043873
+                        button:hover
+                            background: #fff
+                            border-radius: 8px
+                            span
+                                color: #043873
+                    .menu-button_free
+                        margin-left: 25px
+                        button
+                            @extend %button
+                        button:hover
+                            background: #fff
+                            border-radius: 8px
+                            span
+                                color: #043873
+                        
+main
+    .section-lines
+        background: #043873
+        padding: 140px 0
+        background-image: url(image/background/bg_line.svg)
+        background-size: contain
+        background-repeat: no-repeat
+        background-position: center 100px
+        .container
+            width: 1320px
+            margin: 0 auto
+            .section
+                display: flex
+                align-items: center
+                .lines-text
+                    font-family: 'Inter', sans-serif
+                    .lines-text_title
+                        font-weight: 700
+                        font-size: 64px
+                        line-height: 77px
+                        color: #fff
+                    .lines-text_subtitle
+                        font-weight: 400
+                        font-size: 18px
+                        line-height: 30px
+                        color: #fff
+                        margin: 25px 0 60px 0
+                    .lines-text_button
+                        button
+                            @extend %button
+                        button:hover
+                            background: #fff
+                            border-radius: 8px
+                            span
+                                color: #043873
+                .lines-image
+                    max-width: 800px
+                    img
+                        width: 100%
+    
+    .section-management
+        padding: 140px 0 100px 0
+        background-image: url(image/background/bg_line_management.svg)
+        background-repeat: no-repeat
+        background-position: -80px 200px
+        .container
+            width: 1320px
+            margin: 0 auto
+            .section
+                display: flex
+                .management-text
+                    background-image: url(image/icons/bg_element_management.svg)
+                    background-repeat: no-repeat
+                    background-position: 10px 110px
+                    font-family: 'Inter', sans-serif
+                    margin-right: 60px
+                    .management-text_title
+                        font-weight: 700
+                        font-size: 72px
+                        line-height: 87px
+                        color: #212529
+                    .management-text_subtitle
+                        font-weight: 400
+                        font-size: 18px
+                        line-height: 30px
+                        color: #212529
+                        margin: 25px 0 60px 0
+                    .management-text_button
+                        button
+                            @extend %button
+                        button:hover
+                            background: #fff
+                            border-radius: 8px
+                            border: 2px solid #4F9CF9
+                            span
+                                color: #043873
+                .management-image
+                    max-width: 750px
+                    img
+                        width: 100%
+
+    .section-together
+        padding: 0 0 140px 
+        .container
+            width: 1320px
+            margin: 0 auto
+            .section
+                display: flex
+                align-items: center
+                .together-image
+                    max-width: 540px
+                    max-height: 540px
+                    img 
+                        width: 100%
+                .together-text
+                    background-image: url(image/icons/bg_element_together.svg)
+                    background-repeat: no-repeat
+                    background-position: 220px 60px
+                    font-family: 'Inter', sans-serif
+                    margin-left: 100px
+                    .together-text_title
+                        font-weight: 700
+                        font-size: 72px
+                        line-height: 87px
+                    .together-text_subtitle
+                        font-weight: 400
+                        font-size: 18px
+                        line-height: 30px
+                        margin: 25px 0 60px 0
+                    .together-text_button
+                        button
+                            @extend %button
+                        button:hover
+                            background: #fff
+                            border-radius: 8px
+                            border: 2px solid #4F9CF9
+                            span
+                                color: #043873
+
+    .section-extension
+        padding: 140px 0
+        background-color: #043873
+        .container
+            width: 1320px
+            margin: 0 auto
+            .section
+                display: flex
+                align-items: center
+                .extension-text
+                    background-image: url(image/icons/bg_line_extension.svg)
+                    background-repeat: no-repeat
+                    background-position: 190px 65px
+                    font-family: 'Inter', sans-serif
+                    margin-left: 40px
+                    .extension-text_title
+                        font-weight: 700
+                        font-size: 72px
+                        line-height: 87px
+                        color: #fff
+                    .extension-text_subtitle
+                        font-weight: 400
+                        font-size: 18px
+                        line-height: 30px
+                        color: #fff
+                        margin: 25px 0 60px 0
+                    .extension-text_button
+                        button
+                            @extend %button
+                        button:hover
+                            background: #fff
+                            border-radius: 8px
+                            span
+                                color: #043873
+                .extension-image
+                    max-width: 600px
+                    img
+                        width: 100%
+
+    .section-customise
+        padding: 140px 0
+        .container
+            width: 1320px
+            margin: 0 auto
+            .section
+                display: flex
+                align-items: center
+                .customise-image
+                    max-width: 650px
+                    img
+                        width: 100%
+                .customise-text
+                    background-image: url(image/icons/bg_line_customise.svg)
+                    background-repeat: no-repeat
+                    background-position: -10px 110px
+                    font-family: 'Inter', sans-serif
+                    margin-left: 100px
+                    .customise-text_title
+                        font-weight: 700
+                        font-size: 72px
+                        line-height: 87px
+                    .customise-text_subtitle
+                        font-weight: 400
+                        font-size: 18px
+                        line-height: 30px
+                        padding: 25px 0 60px 0
+                    .customise-text_button
+                        button
+                            @extend %button
+                        button:hover
+                            background: #fff
+                            border-radius: 8px
+                            border: 2px solid #4F9CF9
+                            span
+                                color: #043873
+
+    .section-plan
+        padding: 140px 0
+        .container
+            width: 1320px
+            margin: 0 auto
+            .section
+                .plan-text
+                    background-image: url(image/icons/bg_line_plan.svg)
+                    background-repeat: no-repeat
+                    background-position: 650px 55px
+                    font-family: 'Inter', sans-serif
+                    .plan-text_title
+                        text-align: center
+                        font-weight: 700
+                        font-size: 72px
+                        line-height: 87px
+                    .plan-text_subtitle
+                        text-align: center
+                        font-weight: 400
+                        font-size: 18px
+                        line-height: 30px
+                        margin: 25px 0 60px 0
+                .plan-cards
+                    display: flex
+                    justify-content: center
+                    gap: 32px
+                    align-items: center
+                    .plan-cards_free
+                        font-family: 'Inter', sans-serif
+                        border: 1px solid #FFE492
+                        box-sizing: border-box
+                        border-radius: 10px
+                        padding: 40px 45px
+                        .plan-cards_free_title
+                            font-weight: 600
+                            font-size: 24px
+                            line-height: 36px
+                        .plan-cards_free_price
+                            font-weight: 700
+                            font-size: 36px
+                            line-height: 44px
+                            margin: 25px 0
+                        .plan-cards_free_subtitle
+                            font-weight: 500
+                            font-size: 18px
+                            line-height: 23px
+                        .plan-cards_free_list
+                            font-weight: 400
+                            font-size: 16px
+                            line-height: 20px
+                            ul
+                                list-style-type: none
+                                li
+                                    padding-left: 2rem
+                                    background-image: url(image/icons/plan-icon_grey.svg)
+                                    background-position: 0 0
+                                    background-size: 18px 18px
+                                    background-repeat: no-repeat
+                                    margin: 28px 0
+                        .plan-cards_free_button
+                            button
+                                height: 50px
+                                background: #fff
+                                border-radius: 8px
+                                border: 1px solid #FFE492
+                                cursor: pointer
+                                span
+                                    font-family: 'Inter', sans-serif
+                                    margin: 0 40px
+                                    font-weight: 500
+                                    font-size: 16px
+                                    color: #000
+                            button:hover
+                                background: #4F9CF9
+                                border-radius: 8px
+                                span
+                                    color: #fff
+
+                    .plan-cards_personal
+                        font-family: 'Inter', sans-serif
+                        color: #fff
+                        background: #043873
+                        box-sizing: border-box
+                        height: 760px
+                        border: 1px solid #FFE492
+                        border-radius: 10px
+                        padding: 80px 45px
+                        .plan-cards_personal_title
+                            font-weight: 600
+                            font-size: 24px
+                            line-height: 36px
+                        .plan-cards_personal_price
+                            font-weight: 700
+                            font-size: 36px
+                            line-height: 44px
+                            margin: 25px 0
+                            color: #FFE492
+                        .plan-cards_personal_subtitle
+                            font-weight: 500
+                            font-size: 18px
+                            line-height: 23px
+                        .plan-cards_personal_list
+                            font-weight: 500
+                            font-size: 18px
+                            line-height: 23px
+                            ul
+                                list-style-type: none
+                                li
+                                    padding-left: 2rem
+                                    background-image: url(image/icons/plan-icon.svg)
+                                    background-position: 0 0
+                                    background-size: 18px 18px
+                                    background-repeat: no-repeat
+                                    margin: 28px 0
+                        .plan-cards_personal_button
+                            button
+                                height: 50px
+                                background: #4F9CF9
+                                border-radius: 8px
+                                border: none
+                                cursor: pointer
+                                span
+                                    font-family: 'Inter', sans-serif
+                                    margin: 0 40px
+                                    font-weight: 500
+                                    font-size: 16px
+                                    color: #fff
+                            button:hover
+                                background: #fff
+                                border-radius: 8px
+                                span
+                                    color: #043873
+                            
+
+    .section-everywhere
+        background: #043873
+        padding: 140px 0
+        background-image: url(image/background/bg_line-everywhere.svg)
+        background-repeat: no-repeat
+        background-position: -80px -200px
+        .container
+            width: 1320px
+            margin: 0 auto
+            .section
+                background-image: url(image/icons/bg_line_everywhere.svg)
+                background-repeat: no-repeat
+                background-position: 920px 60px
+                font-family: 'Inter', sans-serif
+                text-align: center
+                color: #fff
+                .everywhere-title
+                    font-weight: 700
+                    font-size: 72px
+                    line-height: 87px
+                .everywhere-subtitle
+                    font-weight: 400
+                    font-size: 18px
+                    line-height: 30px
+                    padding: 25px 0 60px 0
+                .everywhere-button
+                    button
+                        @extend %button
+                    button:hover
+                            background: #fff
+                            border-radius: 8px
+                            span
+                                color: #043873
+
+    .section-data
+        padding: 140px 0
+        .container
+            width: 1320px
+            margin: 0 auto
+            .section
+                display: flex
+                align-items: center
+                justify-content: space-between
+                .data-text
+                    background-image: url(image/icons/bg_line_data.svg)
+                    background-repeat: no-repeat
+                    background-position: 220px 65px
+                    font-family: 'Inter', sans-serif
+                    .data-text_title
+                        font-weight: 700
+                        font-size: 72px
+                        line-height: 87px
+                    .data-text_subtitle
+                        font-weight: 400
+                        font-size: 18px
+                        line-height: 30px
+                        padding: 25px 0 60px 0
+                    .data-text_button
+                        button
+                            @extend %button
+                        button:hover
+                            background: #fff
+                            border-radius: 8px
+                            border: 2px solid #4F9CF9
+                            span
+                                color: #043873
+                .data-image
+                    max-width: 680px
+                    img
+                        width: 680px
+
+    .section-sponsors
+        padding: 140px 0
+        .container
+            width: 1320px
+            margin: 0 auto
+            .section
+                .sponsors-text
+                    background-image: url(image/icons/bg_line_sponsors.svg)
+                    background-repeat: no-repeat
+                    background-position: 580px 60px
+                    font-family: 'Inter', sans-serif
+                    text-align: center
+                    padding-bottom: 100px
+                    font-weight: 700
+                    font-size: 72px
+                    line-height: 87px
+                .sponsors-image
+                    display: flex
+                    justify-content: space-between
+
+    .section-apps
+        background: #043873
+        padding: 140px 0
+        background-image: url(image/background/bg_line_apps.svg)
+        background-size: contain
+        background-repeat: no-repeat
+        background-position: center
+        .container
+            width: 1320px
+            margin: 0 auto
+            .section
+                display: flex
+                .apps-text
+                    font-family: 'Inter', sans-serif
+                    color: #fff
+                    margin-left: 100px
+                    .apps-text_title
+                        font-weight: 700
+                        font-size: 72px
+                        line-height: 87px
+                    .apps-text_subtitle
+                        font-weight: 400
+                        font-size: 18px
+                        line-height: 30px
+                        padding: 25px 0 60px 0
+                    .apps-text_button
+                        button
+                            @extend %button
+                        button:hover
+                            background: #fff
+                            border-radius: 8px
+                            span
+                                color: #043873
+                .apps-image
+                    max-width: 580px
+                    img
+                        width: 580px
+
+    .section-says
+        background: #E5E5E5
+        padding: 140px 0 200px 0
+        .container
+            width: 1320px
+            margin: 0 auto
+            .section
+                .says-text
+                    background-image: url(image/icons/bg_line_says.svg)
+                    background-repeat: no-repeat
+                    background-position: 850px 35px
+                    text-align: center
+                    font-family: 'Inter', sans-serif
+                    font-weight: 700
+                    font-size: 70px
+                    line-height: 84px
+                    margin-bottom: 60px
+                .says-cards
+                    display: flex
+                    justify-content: center
+                    gap: 32px
+                    .left-card
+                        padding: 60px 40px
+                        background: #fff
+                        border-radius: 10px
+                        max-width: 472px
+                        .section-top
+                            padding-bottom: 40px
+                            border-bottom: 1px solid #000
+                            .top-text
+                                font-family: 'Inter', sans-serif
+                                font-weight: 400
+                                font-size: 18px
+                                line-height: 30px
+                                margin-top: 32px
+                        .section-bottom
+                            margin-top: 60px
+                            display: flex
+                            .bottom-text
+                                font-family: 'Inter', sans-serif
+                                margin-left: 30px
+                                .bottom-text_title
+                                    font-weight: 600
+                                    font-size: 24px
+                                    line-height: 36px
+                                    margin-bottom: 15px
+                                .bottom-text_subtitle
+                                    font-weight: 400
+                                    font-size: 16px
+                                    line-height: 20px
+                    .middle-card
+                        padding: 60px 40px
+                        background: #4F9CF9
+                        border-radius: 10px
+                        max-width: 472px
+                        .section-top
+                            padding-bottom: 40px
+                            border-bottom: 1px solid #fff
+                            .top-text
+                                font-family: 'Inter', sans-serif
+                                font-weight: 400
+                                font-size: 18px
+                                line-height: 30px
+                                margin-top: 32px
+                                color: #fff
+                        .section-bottom
+                            margin-top: 60px
+                            display: flex
+                            .bottom-text
+                                font-family: 'Inter', sans-serif
+                                margin-left: 42px
+                                .bottom-text_title
+                                    font-weight: 600
+                                    font-size: 24px
+                                    line-height: 36px
+                                    margin-bottom: 15px
+                                    color: #043873
+                                .bottom-text_subtitle
+                                    font-weight: 400
+                                    font-size: 16px
+                                    line-height: 20px
+                                    color: #fff
+                    .right-card
+                        padding: 60px 40px
+                        background: #4F9CF9
+                        border-radius: 10px
+                        max-width: 472px
+                        .section-top
+                            padding-bottom: 40px
+                            border-bottom: 1px solid #fff
+                            .top-text
+                                font-family: 'Inter', sans-serif
+                                font-weight: 400
+                                font-size: 18px
+                                line-height: 30px
+                                margin-top: 32px
+                                color: #fff
+                        .section-bottom
+                            margin-top: 60px
+                            display: flex
+                            .bottom-text
+                                font-family: 'Inter', sans-serif
+                                margin-left: 42px
+                                .bottom-text_title
+                                    font-weight: 600
+                                    font-size: 24px
+                                    line-height: 36px
+                                    margin-bottom: 15px
+                                    color: #043873
+                                .bottom-text_subtitle
+                                    font-weight: 400
+                                    font-size: 16px
+                                    line-height: 20px
+                                    color: #fff
+
+    .section-today
+        background: #043873
+        padding: 140px 0 32px 0
+        .container
+            width: 1320px
+            margin: 0 auto
+            .section
+                flex-direction: column
+                display: flex
+                align-items: center
+                color: #fff
+                text-align: center
+                .today-text
+                    font-family: 'Inter', sans-serif
+                    .today-text_title
+                        font-weight: 700
+                        font-size: 72px
+                        line-height: 87px
+                        margin-bottom: 25px
+                    .today-text_subtitle
+                        font-weight: 400
+                        font-size: 24px
+                        line-height: 32px
+                .today-button
+                    font-family: 'Inter', sans-serif
+                    .today-button_button
+                        button
+                            @extend %button
+                            margin: 40px 0
+                        button:hover
+                            background: #fff
+                            border-radius: 8px
+                            span
+                                color: #043873
+                    .today-button_text
+                        font-weight: 400
+                        font-size: 24px
+                        line-height: 32px
+                        margin-bottom: 40px
+                .today-image
+                    display: flex
+                    gap: 45px
+
+    .section-whitepace
+        background: #043873
+        padding: 140px 0 65px 0
+        .container
+            width: 1320px
+            margin: 0 auto
+            .section
+                display: flex
+                justify-content: space-between
+                font-family: 'Inter', sans-serif
+                .whitepace-icon
+                    .whitepace-icon_img
+                        margin-bottom: 15px
+                    .whitepace-icon_text
+                        font-weight: 400
+                        font-size: 18px
+                        line-height: 30px
+                        color: #F7F7EE
+                .whitepace-product
+                    .whitepace-product_title
+                        font-weight: 700
+                        font-size: 18px
+                        line-height: 22px
+                        color: #fff
+                        margin-bottom: 15px
+                    .whitepace-product_list
+                        font-weight: 400
+                        font-size: 16px
+                        line-height: 20px
+                        ul
+                            li
+                                margin-bottom: 15px
+                                a
+                                    text-decoration: none
+                                    color: #fff
+                                    span
+                                        color: #FFE492
+                                a:hover
+                                    color: #FFE492
+                .whitepace-resources
+                    .whitepace-resources_title
+                        font-weight: 700
+                        font-size: 18px
+                        line-height: 22px
+                        color: #fff
+                        margin-bottom: 15px
+                    .whitepace-resources_list
+                        font-weight: 400
+                        font-size: 16px
+                        line-height: 20px
+                        ul
+                            li
+                                margin-bottom: 15px
+                                a
+                                    text-decoration: none
+                                    color: #fff
+                                a:hover
+                                    color: #FFE492
+                .whitepace-company
+                    .whitepace-company_title
+                        font-weight: 700
+                        font-size: 18px
+                        line-height: 22px
+                        color: #fff
+                        margin-bottom: 15px
+                    .whitepace-company_list
+                        font-weight: 400
+                        font-size: 16px
+                        line-height: 20px
+                        ul
+                            li
+                                margin-bottom: 15px
+                                a
+                                    text-decoration: none
+                                    color: #fff
+                                a:hover
+                                    color: #FFE492
+                .whitepace-button
+                    .whitepace-button_title
+                        font-weight: 700
+                        font-size: 28px
+                        line-height: 36px
+                        color: #fff
+                    .whitepace-button_subtitle
+                        font-weight: 400
+                        font-size: 16px
+                        line-height: 20px
+                        color: #fff
+                        margin: 15px 0
+                    .whitepace-button_button
+                        button
+                            @extend %button
+                        button:hover
+                            background: #fff
+                            border-radius: 8px
+                            span
+                                color: #043873
+
+footer
+    .section-footer
+        background: #043873
+        padding: 32px 0
+        .container
+            width: 1320px
+            margin: 0 auto
+            .section
+                display: flex
+                justify-content: space-between
+                font-family: 'Inter', sans-serif
+                .footer-text
+                    display: flex
+                    gap: 60px
+                    .footer-text_subtitle
+                        padding-left: 20px
+                        font-weight: 400
+                        font-size: 16px
+                        line-height: 20px
+                        a
+                            color: #fff
+                            text-decoration: none
+                        a:hover
+                            color: #FFE492
+                .footer-icon
+                    display: flex
+                    gap: 32px
+
+
+                    
+
+
+                        
+
+
+
+
+
+
+
+
+
+
+            
+                                
+
+
+
+
+
+
+                    
+                    
+
+
+
+
+                                
+                        

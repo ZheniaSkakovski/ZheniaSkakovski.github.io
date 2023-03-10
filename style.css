@@ -1,0 +1,740 @@
+header .section-menu .container .section .menu-button .menu-button_login button, header .section-menu .container .section .menu-button .menu-button_free button, main .section-lines .container .section .lines-text .lines-text_button button, main .section-management .container .section .management-text .management-text_button button, main .section-together .container .section .together-text .together-text_button button, main .section-extension .container .section .extension-text .extension-text_button button, main .section-customise .container .section .customise-text .customise-text_button button, main .section-everywhere .container .section .everywhere-button button, main .section-data .container .section .data-text .data-text_button button, main .section-apps .container .section .apps-text .apps-text_button button, main .section-today .container .section .today-button .today-button_button button, main .section-whitepace .container .section .whitepace-button .whitepace-button_button button {
+  height: 60px;
+  background: #4F9CF9;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer; }
+  header .section-menu .container .section .menu-button .menu-button_login button span, header .section-menu .container .section .menu-button .menu-button_free button span, main .section-lines .container .section .lines-text .lines-text_button button span, main .section-management .container .section .management-text .management-text_button button span, main .section-together .container .section .together-text .together-text_button button span, main .section-extension .container .section .extension-text .extension-text_button button span, main .section-customise .container .section .customise-text .customise-text_button button span, main .section-everywhere .container .section .everywhere-button button span, main .section-data .container .section .data-text .data-text_button button span, main .section-apps .container .section .apps-text .apps-text_button button span, main .section-today .container .section .today-button .today-button_button button span, main .section-whitepace .container .section .whitepace-button .whitepace-button_button button span {
+    font-family: "Inter", sans-serif;
+    padding: 0 25px;
+    font-weight: 500;
+    font-size: 18px;
+    color: #fff; }
+
+header .section-menu {
+  background: #043873;
+  padding: 15px 0; }
+  header .section-menu .container {
+    width: 1320px;
+    margin: 0 auto; }
+    header .section-menu .container .section {
+      display: flex;
+      align-items: center;
+      justify-content: space-between; }
+      header .section-menu .container .section .menu-list ul {
+        display: flex;
+        gap: 50px; }
+        header .section-menu .container .section .menu-list ul li a {
+          text-decoration: none;
+          color: #fff;
+          font-family: "Inter", sans-serif;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 18px; }
+        header .section-menu .container .section .menu-list ul li a:hover {
+          color: #FFE492; }
+      header .section-menu .container .section .menu-button {
+        display: flex; }
+        header .section-menu .container .section .menu-button .menu-button_login button {
+          background: #FFE492; }
+          header .section-menu .container .section .menu-button .menu-button_login button span {
+            padding: 0 40px;
+            color: #043873; }
+        header .section-menu .container .section .menu-button .menu-button_login button:hover {
+          background: #fff;
+          border-radius: 8px; }
+          header .section-menu .container .section .menu-button .menu-button_login button:hover span {
+            color: #043873; }
+        header .section-menu .container .section .menu-button .menu-button_free {
+          margin-left: 25px; }
+          header .section-menu .container .section .menu-button .menu-button_free button:hover {
+            background: #fff;
+            border-radius: 8px; }
+            header .section-menu .container .section .menu-button .menu-button_free button:hover span {
+              color: #043873; }
+
+main .section-lines {
+  background: #043873;
+  padding: 140px 0;
+  background-image: url(image/background/bg_line.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center 100px; }
+  main .section-lines .container {
+    width: 1320px;
+    margin: 0 auto; }
+    main .section-lines .container .section {
+      display: flex;
+      align-items: center; }
+      main .section-lines .container .section .lines-text {
+        font-family: "Inter", sans-serif; }
+        main .section-lines .container .section .lines-text .lines-text_title {
+          font-weight: 700;
+          font-size: 64px;
+          line-height: 77px;
+          color: #fff; }
+        main .section-lines .container .section .lines-text .lines-text_subtitle {
+          font-weight: 400;
+          font-size: 18px;
+          line-height: 30px;
+          color: #fff;
+          margin: 25px 0 60px 0; }
+        main .section-lines .container .section .lines-text .lines-text_button button:hover {
+          background: #fff;
+          border-radius: 8px; }
+          main .section-lines .container .section .lines-text .lines-text_button button:hover span {
+            color: #043873; }
+      main .section-lines .container .section .lines-image {
+        max-width: 800px; }
+        main .section-lines .container .section .lines-image img {
+          width: 100%; }
+main .section-management {
+  padding: 140px 0 100px 0;
+  background-image: url(image/background/bg_line_management.svg);
+  background-repeat: no-repeat;
+  background-position: -80px 200px; }
+  main .section-management .container {
+    width: 1320px;
+    margin: 0 auto; }
+    main .section-management .container .section {
+      display: flex; }
+      main .section-management .container .section .management-text {
+        background-image: url(image/icons/bg_element_management.svg);
+        background-repeat: no-repeat;
+        background-position: 10px 110px;
+        font-family: "Inter", sans-serif;
+        margin-right: 60px; }
+        main .section-management .container .section .management-text .management-text_title {
+          font-weight: 700;
+          font-size: 72px;
+          line-height: 87px;
+          color: #212529; }
+        main .section-management .container .section .management-text .management-text_subtitle {
+          font-weight: 400;
+          font-size: 18px;
+          line-height: 30px;
+          color: #212529;
+          margin: 25px 0 60px 0; }
+        main .section-management .container .section .management-text .management-text_button button:hover {
+          background: #fff;
+          border-radius: 8px;
+          border: 2px solid #4F9CF9; }
+          main .section-management .container .section .management-text .management-text_button button:hover span {
+            color: #043873; }
+      main .section-management .container .section .management-image {
+        max-width: 750px; }
+        main .section-management .container .section .management-image img {
+          width: 100%; }
+main .section-together {
+  padding: 0 0 140px; }
+  main .section-together .container {
+    width: 1320px;
+    margin: 0 auto; }
+    main .section-together .container .section {
+      display: flex;
+      align-items: center; }
+      main .section-together .container .section .together-image {
+        max-width: 540px;
+        max-height: 540px; }
+        main .section-together .container .section .together-image img {
+          width: 100%; }
+      main .section-together .container .section .together-text {
+        background-image: url(image/icons/bg_element_together.svg);
+        background-repeat: no-repeat;
+        background-position: 220px 60px;
+        font-family: "Inter", sans-serif;
+        margin-left: 100px; }
+        main .section-together .container .section .together-text .together-text_title {
+          font-weight: 700;
+          font-size: 72px;
+          line-height: 87px; }
+        main .section-together .container .section .together-text .together-text_subtitle {
+          font-weight: 400;
+          font-size: 18px;
+          line-height: 30px;
+          margin: 25px 0 60px 0; }
+        main .section-together .container .section .together-text .together-text_button button:hover {
+          background: #fff;
+          border-radius: 8px;
+          border: 2px solid #4F9CF9; }
+          main .section-together .container .section .together-text .together-text_button button:hover span {
+            color: #043873; }
+main .section-extension {
+  padding: 140px 0;
+  background-color: #043873; }
+  main .section-extension .container {
+    width: 1320px;
+    margin: 0 auto; }
+    main .section-extension .container .section {
+      display: flex;
+      align-items: center; }
+      main .section-extension .container .section .extension-text {
+        background-image: url(image/icons/bg_line_extension.svg);
+        background-repeat: no-repeat;
+        background-position: 190px 65px;
+        font-family: "Inter", sans-serif;
+        margin-left: 40px; }
+        main .section-extension .container .section .extension-text .extension-text_title {
+          font-weight: 700;
+          font-size: 72px;
+          line-height: 87px;
+          color: #fff; }
+        main .section-extension .container .section .extension-text .extension-text_subtitle {
+          font-weight: 400;
+          font-size: 18px;
+          line-height: 30px;
+          color: #fff;
+          margin: 25px 0 60px 0; }
+        main .section-extension .container .section .extension-text .extension-text_button button:hover {
+          background: #fff;
+          border-radius: 8px; }
+          main .section-extension .container .section .extension-text .extension-text_button button:hover span {
+            color: #043873; }
+      main .section-extension .container .section .extension-image {
+        max-width: 600px; }
+        main .section-extension .container .section .extension-image img {
+          width: 100%; }
+main .section-customise {
+  padding: 140px 0; }
+  main .section-customise .container {
+    width: 1320px;
+    margin: 0 auto; }
+    main .section-customise .container .section {
+      display: flex;
+      align-items: center; }
+      main .section-customise .container .section .customise-image {
+        max-width: 650px; }
+        main .section-customise .container .section .customise-image img {
+          width: 100%; }
+      main .section-customise .container .section .customise-text {
+        background-image: url(image/icons/bg_line_customise.svg);
+        background-repeat: no-repeat;
+        background-position: -10px 110px;
+        font-family: "Inter", sans-serif;
+        margin-left: 100px; }
+        main .section-customise .container .section .customise-text .customise-text_title {
+          font-weight: 700;
+          font-size: 72px;
+          line-height: 87px; }
+        main .section-customise .container .section .customise-text .customise-text_subtitle {
+          font-weight: 400;
+          font-size: 18px;
+          line-height: 30px;
+          padding: 25px 0 60px 0; }
+        main .section-customise .container .section .customise-text .customise-text_button button:hover {
+          background: #fff;
+          border-radius: 8px;
+          border: 2px solid #4F9CF9; }
+          main .section-customise .container .section .customise-text .customise-text_button button:hover span {
+            color: #043873; }
+main .section-plan {
+  padding: 140px 0; }
+  main .section-plan .container {
+    width: 1320px;
+    margin: 0 auto; }
+    main .section-plan .container .section .plan-text {
+      background-image: url(image/icons/bg_line_plan.svg);
+      background-repeat: no-repeat;
+      background-position: 650px 55px;
+      font-family: "Inter", sans-serif; }
+      main .section-plan .container .section .plan-text .plan-text_title {
+        text-align: center;
+        font-weight: 700;
+        font-size: 72px;
+        line-height: 87px; }
+      main .section-plan .container .section .plan-text .plan-text_subtitle {
+        text-align: center;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 30px;
+        margin: 25px 0 60px 0; }
+    main .section-plan .container .section .plan-cards {
+      display: flex;
+      justify-content: center;
+      gap: 32px;
+      align-items: center; }
+      main .section-plan .container .section .plan-cards .plan-cards_free {
+        font-family: "Inter", sans-serif;
+        border: 1px solid #FFE492;
+        box-sizing: border-box;
+        border-radius: 10px;
+        padding: 40px 45px; }
+        main .section-plan .container .section .plan-cards .plan-cards_free .plan-cards_free_title {
+          font-weight: 600;
+          font-size: 24px;
+          line-height: 36px; }
+        main .section-plan .container .section .plan-cards .plan-cards_free .plan-cards_free_price {
+          font-weight: 700;
+          font-size: 36px;
+          line-height: 44px;
+          margin: 25px 0; }
+        main .section-plan .container .section .plan-cards .plan-cards_free .plan-cards_free_subtitle {
+          font-weight: 500;
+          font-size: 18px;
+          line-height: 23px; }
+        main .section-plan .container .section .plan-cards .plan-cards_free .plan-cards_free_list {
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 20px; }
+          main .section-plan .container .section .plan-cards .plan-cards_free .plan-cards_free_list ul {
+            list-style-type: none; }
+            main .section-plan .container .section .plan-cards .plan-cards_free .plan-cards_free_list ul li {
+              padding-left: 2rem;
+              background-image: url(image/icons/plan-icon_grey.svg);
+              background-position: 0 0;
+              background-size: 18px 18px;
+              background-repeat: no-repeat;
+              margin: 28px 0; }
+        main .section-plan .container .section .plan-cards .plan-cards_free .plan-cards_free_button button {
+          height: 50px;
+          background: #fff;
+          border-radius: 8px;
+          border: 1px solid #FFE492;
+          cursor: pointer; }
+          main .section-plan .container .section .plan-cards .plan-cards_free .plan-cards_free_button button span {
+            font-family: "Inter", sans-serif;
+            margin: 0 40px;
+            font-weight: 500;
+            font-size: 16px;
+            color: #000; }
+        main .section-plan .container .section .plan-cards .plan-cards_free .plan-cards_free_button button:hover {
+          background: #4F9CF9;
+          border-radius: 8px; }
+          main .section-plan .container .section .plan-cards .plan-cards_free .plan-cards_free_button button:hover span {
+            color: #fff; }
+      main .section-plan .container .section .plan-cards .plan-cards_personal {
+        font-family: "Inter", sans-serif;
+        color: #fff;
+        background: #043873;
+        box-sizing: border-box;
+        height: 760px;
+        border: 1px solid #FFE492;
+        border-radius: 10px;
+        padding: 80px 45px; }
+        main .section-plan .container .section .plan-cards .plan-cards_personal .plan-cards_personal_title {
+          font-weight: 600;
+          font-size: 24px;
+          line-height: 36px; }
+        main .section-plan .container .section .plan-cards .plan-cards_personal .plan-cards_personal_price {
+          font-weight: 700;
+          font-size: 36px;
+          line-height: 44px;
+          margin: 25px 0;
+          color: #FFE492; }
+        main .section-plan .container .section .plan-cards .plan-cards_personal .plan-cards_personal_subtitle {
+          font-weight: 500;
+          font-size: 18px;
+          line-height: 23px; }
+        main .section-plan .container .section .plan-cards .plan-cards_personal .plan-cards_personal_list {
+          font-weight: 500;
+          font-size: 18px;
+          line-height: 23px; }
+          main .section-plan .container .section .plan-cards .plan-cards_personal .plan-cards_personal_list ul {
+            list-style-type: none; }
+            main .section-plan .container .section .plan-cards .plan-cards_personal .plan-cards_personal_list ul li {
+              padding-left: 2rem;
+              background-image: url(image/icons/plan-icon.svg);
+              background-position: 0 0;
+              background-size: 18px 18px;
+              background-repeat: no-repeat;
+              margin: 28px 0; }
+        main .section-plan .container .section .plan-cards .plan-cards_personal .plan-cards_personal_button button {
+          height: 50px;
+          background: #4F9CF9;
+          border-radius: 8px;
+          border: none;
+          cursor: pointer; }
+          main .section-plan .container .section .plan-cards .plan-cards_personal .plan-cards_personal_button button span {
+            font-family: "Inter", sans-serif;
+            margin: 0 40px;
+            font-weight: 500;
+            font-size: 16px;
+            color: #fff; }
+        main .section-plan .container .section .plan-cards .plan-cards_personal .plan-cards_personal_button button:hover {
+          background: #fff;
+          border-radius: 8px; }
+          main .section-plan .container .section .plan-cards .plan-cards_personal .plan-cards_personal_button button:hover span {
+            color: #043873; }
+main .section-everywhere {
+  background: #043873;
+  padding: 140px 0;
+  background-image: url(image/background/bg_line-everywhere.svg);
+  background-repeat: no-repeat;
+  background-position: -80px -200px; }
+  main .section-everywhere .container {
+    width: 1320px;
+    margin: 0 auto; }
+    main .section-everywhere .container .section {
+      background-image: url(image/icons/bg_line_everywhere.svg);
+      background-repeat: no-repeat;
+      background-position: 920px 60px;
+      font-family: "Inter", sans-serif;
+      text-align: center;
+      color: #fff; }
+      main .section-everywhere .container .section .everywhere-title {
+        font-weight: 700;
+        font-size: 72px;
+        line-height: 87px; }
+      main .section-everywhere .container .section .everywhere-subtitle {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 30px;
+        padding: 25px 0 60px 0; }
+      main .section-everywhere .container .section .everywhere-button button:hover {
+        background: #fff;
+        border-radius: 8px; }
+        main .section-everywhere .container .section .everywhere-button button:hover span {
+          color: #043873; }
+main .section-data {
+  padding: 140px 0; }
+  main .section-data .container {
+    width: 1320px;
+    margin: 0 auto; }
+    main .section-data .container .section {
+      display: flex;
+      align-items: center;
+      justify-content: space-between; }
+      main .section-data .container .section .data-text {
+        background-image: url(image/icons/bg_line_data.svg);
+        background-repeat: no-repeat;
+        background-position: 220px 65px;
+        font-family: "Inter", sans-serif; }
+        main .section-data .container .section .data-text .data-text_title {
+          font-weight: 700;
+          font-size: 72px;
+          line-height: 87px; }
+        main .section-data .container .section .data-text .data-text_subtitle {
+          font-weight: 400;
+          font-size: 18px;
+          line-height: 30px;
+          padding: 25px 0 60px 0; }
+        main .section-data .container .section .data-text .data-text_button button:hover {
+          background: #fff;
+          border-radius: 8px;
+          border: 2px solid #4F9CF9; }
+          main .section-data .container .section .data-text .data-text_button button:hover span {
+            color: #043873; }
+      main .section-data .container .section .data-image {
+        max-width: 680px; }
+        main .section-data .container .section .data-image img {
+          width: 680px; }
+main .section-sponsors {
+  padding: 140px 0; }
+  main .section-sponsors .container {
+    width: 1320px;
+    margin: 0 auto; }
+    main .section-sponsors .container .section .sponsors-text {
+      background-image: url(image/icons/bg_line_sponsors.svg);
+      background-repeat: no-repeat;
+      background-position: 580px 60px;
+      font-family: "Inter", sans-serif;
+      text-align: center;
+      padding-bottom: 100px;
+      font-weight: 700;
+      font-size: 72px;
+      line-height: 87px; }
+    main .section-sponsors .container .section .sponsors-image {
+      display: flex;
+      justify-content: space-between; }
+main .section-apps {
+  background: #043873;
+  padding: 140px 0;
+  background-image: url(image/background/bg_line_apps.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center; }
+  main .section-apps .container {
+    width: 1320px;
+    margin: 0 auto; }
+    main .section-apps .container .section {
+      display: flex; }
+      main .section-apps .container .section .apps-text {
+        font-family: "Inter", sans-serif;
+        color: #fff;
+        margin-left: 100px; }
+        main .section-apps .container .section .apps-text .apps-text_title {
+          font-weight: 700;
+          font-size: 72px;
+          line-height: 87px; }
+        main .section-apps .container .section .apps-text .apps-text_subtitle {
+          font-weight: 400;
+          font-size: 18px;
+          line-height: 30px;
+          padding: 25px 0 60px 0; }
+        main .section-apps .container .section .apps-text .apps-text_button button:hover {
+          background: #fff;
+          border-radius: 8px; }
+          main .section-apps .container .section .apps-text .apps-text_button button:hover span {
+            color: #043873; }
+      main .section-apps .container .section .apps-image {
+        max-width: 580px; }
+        main .section-apps .container .section .apps-image img {
+          width: 580px; }
+main .section-says {
+  background: #E5E5E5;
+  padding: 140px 0 200px 0; }
+  main .section-says .container {
+    width: 1320px;
+    margin: 0 auto; }
+    main .section-says .container .section .says-text {
+      background-image: url(image/icons/bg_line_says.svg);
+      background-repeat: no-repeat;
+      background-position: 850px 35px;
+      text-align: center;
+      font-family: "Inter", sans-serif;
+      font-weight: 700;
+      font-size: 70px;
+      line-height: 84px;
+      margin-bottom: 60px; }
+    main .section-says .container .section .says-cards {
+      display: flex;
+      justify-content: center;
+      gap: 32px; }
+      main .section-says .container .section .says-cards .left-card {
+        padding: 60px 40px;
+        background: #fff;
+        border-radius: 10px;
+        max-width: 472px; }
+        main .section-says .container .section .says-cards .left-card .section-top {
+          padding-bottom: 40px;
+          border-bottom: 1px solid #000; }
+          main .section-says .container .section .says-cards .left-card .section-top .top-text {
+            font-family: "Inter", sans-serif;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 30px;
+            margin-top: 32px; }
+        main .section-says .container .section .says-cards .left-card .section-bottom {
+          margin-top: 60px;
+          display: flex; }
+          main .section-says .container .section .says-cards .left-card .section-bottom .bottom-text {
+            font-family: "Inter", sans-serif;
+            margin-left: 30px; }
+            main .section-says .container .section .says-cards .left-card .section-bottom .bottom-text .bottom-text_title {
+              font-weight: 600;
+              font-size: 24px;
+              line-height: 36px;
+              margin-bottom: 15px; }
+            main .section-says .container .section .says-cards .left-card .section-bottom .bottom-text .bottom-text_subtitle {
+              font-weight: 400;
+              font-size: 16px;
+              line-height: 20px; }
+      main .section-says .container .section .says-cards .middle-card {
+        padding: 60px 40px;
+        background: #4F9CF9;
+        border-radius: 10px;
+        max-width: 472px; }
+        main .section-says .container .section .says-cards .middle-card .section-top {
+          padding-bottom: 40px;
+          border-bottom: 1px solid #fff; }
+          main .section-says .container .section .says-cards .middle-card .section-top .top-text {
+            font-family: "Inter", sans-serif;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 30px;
+            margin-top: 32px;
+            color: #fff; }
+        main .section-says .container .section .says-cards .middle-card .section-bottom {
+          margin-top: 60px;
+          display: flex; }
+          main .section-says .container .section .says-cards .middle-card .section-bottom .bottom-text {
+            font-family: "Inter", sans-serif;
+            margin-left: 42px; }
+            main .section-says .container .section .says-cards .middle-card .section-bottom .bottom-text .bottom-text_title {
+              font-weight: 600;
+              font-size: 24px;
+              line-height: 36px;
+              margin-bottom: 15px;
+              color: #043873; }
+            main .section-says .container .section .says-cards .middle-card .section-bottom .bottom-text .bottom-text_subtitle {
+              font-weight: 400;
+              font-size: 16px;
+              line-height: 20px;
+              color: #fff; }
+      main .section-says .container .section .says-cards .right-card {
+        padding: 60px 40px;
+        background: #4F9CF9;
+        border-radius: 10px;
+        max-width: 472px; }
+        main .section-says .container .section .says-cards .right-card .section-top {
+          padding-bottom: 40px;
+          border-bottom: 1px solid #fff; }
+          main .section-says .container .section .says-cards .right-card .section-top .top-text {
+            font-family: "Inter", sans-serif;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 30px;
+            margin-top: 32px;
+            color: #fff; }
+        main .section-says .container .section .says-cards .right-card .section-bottom {
+          margin-top: 60px;
+          display: flex; }
+          main .section-says .container .section .says-cards .right-card .section-bottom .bottom-text {
+            font-family: "Inter", sans-serif;
+            margin-left: 42px; }
+            main .section-says .container .section .says-cards .right-card .section-bottom .bottom-text .bottom-text_title {
+              font-weight: 600;
+              font-size: 24px;
+              line-height: 36px;
+              margin-bottom: 15px;
+              color: #043873; }
+            main .section-says .container .section .says-cards .right-card .section-bottom .bottom-text .bottom-text_subtitle {
+              font-weight: 400;
+              font-size: 16px;
+              line-height: 20px;
+              color: #fff; }
+main .section-today {
+  background: #043873;
+  padding: 140px 0 32px 0; }
+  main .section-today .container {
+    width: 1320px;
+    margin: 0 auto; }
+    main .section-today .container .section {
+      flex-direction: column;
+      display: flex;
+      align-items: center;
+      color: #fff;
+      text-align: center; }
+      main .section-today .container .section .today-text {
+        font-family: "Inter", sans-serif; }
+        main .section-today .container .section .today-text .today-text_title {
+          font-weight: 700;
+          font-size: 72px;
+          line-height: 87px;
+          margin-bottom: 25px; }
+        main .section-today .container .section .today-text .today-text_subtitle {
+          font-weight: 400;
+          font-size: 24px;
+          line-height: 32px; }
+      main .section-today .container .section .today-button {
+        font-family: "Inter", sans-serif; }
+        main .section-today .container .section .today-button .today-button_button button {
+          margin: 40px 0; }
+        main .section-today .container .section .today-button .today-button_button button:hover {
+          background: #fff;
+          border-radius: 8px; }
+          main .section-today .container .section .today-button .today-button_button button:hover span {
+            color: #043873; }
+        main .section-today .container .section .today-button .today-button_text {
+          font-weight: 400;
+          font-size: 24px;
+          line-height: 32px;
+          margin-bottom: 40px; }
+      main .section-today .container .section .today-image {
+        display: flex;
+        gap: 45px; }
+main .section-whitepace {
+  background: #043873;
+  padding: 140px 0 65px 0; }
+  main .section-whitepace .container {
+    width: 1320px;
+    margin: 0 auto; }
+    main .section-whitepace .container .section {
+      display: flex;
+      justify-content: space-between;
+      font-family: "Inter", sans-serif; }
+      main .section-whitepace .container .section .whitepace-icon .whitepace-icon_img {
+        margin-bottom: 15px; }
+      main .section-whitepace .container .section .whitepace-icon .whitepace-icon_text {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 30px;
+        color: #F7F7EE; }
+      main .section-whitepace .container .section .whitepace-product .whitepace-product_title {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 22px;
+        color: #fff;
+        margin-bottom: 15px; }
+      main .section-whitepace .container .section .whitepace-product .whitepace-product_list {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px; }
+        main .section-whitepace .container .section .whitepace-product .whitepace-product_list ul li {
+          margin-bottom: 15px; }
+          main .section-whitepace .container .section .whitepace-product .whitepace-product_list ul li a {
+            text-decoration: none;
+            color: #fff; }
+            main .section-whitepace .container .section .whitepace-product .whitepace-product_list ul li a span {
+              color: #FFE492; }
+          main .section-whitepace .container .section .whitepace-product .whitepace-product_list ul li a:hover {
+            color: #FFE492; }
+      main .section-whitepace .container .section .whitepace-resources .whitepace-resources_title {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 22px;
+        color: #fff;
+        margin-bottom: 15px; }
+      main .section-whitepace .container .section .whitepace-resources .whitepace-resources_list {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px; }
+        main .section-whitepace .container .section .whitepace-resources .whitepace-resources_list ul li {
+          margin-bottom: 15px; }
+          main .section-whitepace .container .section .whitepace-resources .whitepace-resources_list ul li a {
+            text-decoration: none;
+            color: #fff; }
+          main .section-whitepace .container .section .whitepace-resources .whitepace-resources_list ul li a:hover {
+            color: #FFE492; }
+      main .section-whitepace .container .section .whitepace-company .whitepace-company_title {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 22px;
+        color: #fff;
+        margin-bottom: 15px; }
+      main .section-whitepace .container .section .whitepace-company .whitepace-company_list {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px; }
+        main .section-whitepace .container .section .whitepace-company .whitepace-company_list ul li {
+          margin-bottom: 15px; }
+          main .section-whitepace .container .section .whitepace-company .whitepace-company_list ul li a {
+            text-decoration: none;
+            color: #fff; }
+          main .section-whitepace .container .section .whitepace-company .whitepace-company_list ul li a:hover {
+            color: #FFE492; }
+      main .section-whitepace .container .section .whitepace-button .whitepace-button_title {
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 36px;
+        color: #fff; }
+      main .section-whitepace .container .section .whitepace-button .whitepace-button_subtitle {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        color: #fff;
+        margin: 15px 0; }
+      main .section-whitepace .container .section .whitepace-button .whitepace-button_button button:hover {
+        background: #fff;
+        border-radius: 8px; }
+        main .section-whitepace .container .section .whitepace-button .whitepace-button_button button:hover span {
+          color: #043873; }
+
+footer .section-footer {
+  background: #043873;
+  padding: 32px 0; }
+  footer .section-footer .container {
+    width: 1320px;
+    margin: 0 auto; }
+    footer .section-footer .container .section {
+      display: flex;
+      justify-content: space-between;
+      font-family: "Inter", sans-serif; }
+      footer .section-footer .container .section .footer-text {
+        display: flex;
+        gap: 60px; }
+        footer .section-footer .container .section .footer-text .footer-text_subtitle {
+          padding-left: 20px;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 20px; }
+          footer .section-footer .container .section .footer-text .footer-text_subtitle a {
+            color: #fff;
+            text-decoration: none; }
+          footer .section-footer .container .section .footer-text .footer-text_subtitle a:hover {
+            color: #FFE492; }
+      footer .section-footer .container .section .footer-icon {
+        display: flex;
+        gap: 32px; }
+
+/*# sourceMappingURL=style.css.map */

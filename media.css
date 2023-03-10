@@ -1,0 +1,566 @@
+@media only screen and (max-width: 1400px) and (min-width: 1200px) {
+  header .section-menu .container {
+    width: 1140px;
+    margin: 0 auto; }
+
+  main .section-lines {
+    padding: 100px 0; }
+    main .section-lines .container {
+      width: 1140px;
+      margin: 0 auto; }
+      main .section-lines .container .section .lines-image {
+        max-width: 680px; }
+  main .section-management .container {
+    width: 1140px;
+    margin: 0 auto; }
+    main .section-management .container .section .management-image {
+      max-width: 700px; }
+  main .section-together .container {
+    width: 1140px;
+    margin: 0 auto; }
+  main .section-extension .container {
+    width: 1140px;
+    margin: 0 auto; }
+    main .section-extension .container .section .extension-text {
+      background-position: -55px 155px; }
+  main .section-customise .container {
+    width: 1140px;
+    margin: 0 auto; }
+  main .section-plan .container {
+    width: 1140px;
+    margin: 0 auto; }
+  main .section-everywhere .container {
+    width: 1140px;
+    margin: 0 auto; }
+    main .section-everywhere .container .section {
+      background-position: 820px 60px; }
+  main .section-data .container {
+    width: 1140px;
+    margin: 0 auto; }
+    main .section-data .container .section .data-text {
+      background-position: 20px 65px; }
+  main .section-sponsors .container {
+    width: 1140px;
+    margin: 0 auto; }
+  main .section-apps .container {
+    width: 1140px;
+    margin: 0 auto; }
+  main .section-says .container {
+    width: 1140px;
+    margin: 0 auto; }
+    main .section-says .container .section .says-text {
+      background-position: 700px 35px; }
+    main .section-says .container .section .says-cards .left-card {
+      width: 424px; }
+    main .section-says .container .section .says-cards .middle-card {
+      width: 424px; }
+    main .section-says .container .section .says-cards .right-card {
+      width: 424px; }
+  main .section-today .container {
+    width: 1140px;
+    margin: 0 auto; }
+  main .section-whitepace .container {
+    width: 1140px;
+    margin: 0 auto; }
+
+  footer .section-footer .container {
+    width: 1140px;
+    margin: 0 auto; } }
+@media only screen and (max-width: 1200px) and (min-width: 992px) {
+  header .section-menu .container {
+    width: 960px;
+    margin: 0 auto; }
+    header .section-menu .container .section .menu-list ul {
+      gap: 15px; }
+      header .section-menu .container .section .menu-list ul li a {
+        font-size: 14px; }
+
+  main .section-lines {
+    padding: 100px 0; }
+    main .section-lines .container {
+      width: 960px;
+      margin: 0 auto; }
+      main .section-lines .container .section .lines-image {
+        max-width: 520px; }
+  main .section-management .container {
+    width: 960px;
+    margin: 0 auto; }
+    main .section-management .container .section {
+      align-items: center; }
+      main .section-management .container .section .management-image {
+        max-width: 520px; }
+  main .section-together .container {
+    width: 960px;
+    margin: 0 auto; }
+  main .section-extension .container {
+    width: 960px;
+    margin: 0 auto; }
+    main .section-extension .container .section .extension-text {
+      background-position: -55px 155px; }
+    main .section-extension .container .section .extension-image {
+      max-width: 460px; }
+  main .section-customise .container {
+    width: 960px;
+    margin: 0 auto; }
+    main .section-customise .container .section .section-image {
+      max-width: 535px; }
+  main .section-plan .container {
+    width: 960px;
+    margin: 0 auto; }
+    main .section-plan .container .section .plan-cards .plan-cards_personal {
+      height: 920px; }
+  main .section-everywhere {
+    background-image: none; }
+    main .section-everywhere .container {
+      width: 960px;
+      margin: 0 auto; }
+      main .section-everywhere .container .section {
+        background-position: 180px 80px;
+        text-align: left;
+        width: 50%; }
+        main .section-everywhere .container .section .everywhere-title {
+          font-size: 48px;
+          line-height: 50px; }
+  main .section-data .container {
+    width: 960px;
+    margin: 0 auto; }
+    main .section-data .container .section .data-text {
+      background-position: 50px 35px; }
+      main .section-data .container .section .data-text .data-text_title {
+        font-size: 48px;
+        line-height: 50px; }
+    main .section-data .container .section .data-image {
+      max-width: 560px; }
+      main .section-data .container .section .data-image img {
+        width: 560px; }
+  main .section-sponsors .container {
+    width: 960px;
+    margin: 0 auto; }
+    main .section-sponsors .container .section .sponsors-text {
+      background-position: 400px 60px; }
+  main .section-apps .container {
+    width: 960px;
+    margin: 0 auto; }
+    main .section-apps .container .section {
+      align-items: center; }
+      main .section-apps .container .section .apps-text .apps-text_title {
+        font-size: 48px;
+        line-height: 50px; }
+      main .section-apps .container .section .apps-image {
+        max-width: 480px; }
+        main .section-apps .container .section .apps-image img {
+          width: 480px; }
+  main .section-says .container {
+    width: 960px;
+    margin: 0 auto; }
+    main .section-says .container .section .says-text {
+      background-position: 700px 35px; }
+  main .section-today .container {
+    width: 960px;
+    margin: 0 auto; }
+  main .section-whitepace .container {
+    width: 960px;
+    margin: 0 auto; }
+
+  footer .section-footer .container {
+    width: 960px;
+    margin: 0 auto; } }
+@media only screen and (max-width: 992px) and (min-width: 768px) {
+  header .section-menu .container {
+    width: 720px;
+    margin: 0 auto; }
+    header .section-menu .container .section {
+      flex-direction: column;
+      gap: 25px; }
+
+  main .section-lines {
+    padding: 140px 0 100px 0;
+    background-position: center 250px;
+    background-size: 150%; }
+    main .section-lines .container {
+      width: 720px;
+      margin: 0 auto; }
+      main .section-lines .container .section {
+        flex-direction: column;
+        text-align: center; }
+        main .section-lines .container .section .lines-text_title {
+          font-size: 54px;
+          line-height: 65px; }
+        main .section-lines .container .section .lines-image {
+          max-width: 550px;
+          margin-top: 100px; }
+  main .section-management .container {
+    width: 720px;
+    margin: 0 auto; }
+    main .section-management .container .section {
+      flex-direction: column;
+      text-align: center; }
+      main .section-management .container .section .management-text {
+        background-position: 110px 110px;
+        margin-right: 0px; }
+      main .section-management .container .section .management-text_title {
+        font-size: 54px;
+        line-height: 65px; }
+      main .section-management .container .section .management-image {
+        margin-top: 100px;
+        max-width: 700px; }
+  main .section-together .container {
+    width: 720px;
+    margin: 0 auto; }
+    main .section-together .container .section {
+      flex-direction: column-reverse;
+      text-align: center; }
+      main .section-together .container .section .together-image {
+        margin-top: 100px;
+        max-width: 450px;
+        height: 420px; }
+      main .section-together .container .section .together-text {
+        background-position: 260px 40px;
+        margin-left: 0px; }
+        main .section-together .container .section .together-text .together-text_title {
+          font-size: 54px;
+          line-height: 65px; }
+  main .section-extension .container {
+    width: 720px;
+    margin: 0 auto; }
+    main .section-extension .container .section {
+      flex-direction: column;
+      text-align: center; }
+      main .section-extension .container .section .extension-image {
+        max-width: 550px;
+        margin-top: 100px; }
+      main .section-extension .container .section .extension-text {
+        background-position: 230px 50px;
+        margin-left: 0px; }
+        main .section-extension .container .section .extension-text .extension-text_title {
+          font-size: 54px;
+          line-height: 65px; }
+  main .section-customise .container {
+    width: 720px;
+    margin: 0 auto; }
+    main .section-customise .container .section {
+      flex-direction: column;
+      text-align: center; }
+      main .section-customise .container .section .customise-image {
+        margin-bottom: 100px; }
+      main .section-customise .container .section .customise-text {
+        margin-left: 0px;
+        background-position: 70px 0px; }
+        main .section-customise .container .section .customise-text .customise-text_title {
+          font-size: 54px;
+          line-height: 65px; }
+  main .section-plan .container {
+    width: 720px;
+    margin: 0 auto; }
+    main .section-plan .container .section .plan-text {
+      background-position: 350px 40px; }
+      main .section-plan .container .section .plan-text .plan-text_title {
+        font-size: 54px;
+        line-height: 65px; }
+    main .section-plan .container .section .plan-cards {
+      flex-direction: column; }
+  main .section-everywhere .container {
+    width: 720px;
+    margin: 0 auto; }
+    main .section-everywhere .container .section {
+      background-position: 420px 140px;
+      text-align: left; }
+  main .section-data .container {
+    width: 720px;
+    margin: 0 auto; }
+    main .section-data .container .section {
+      text-align: center;
+      flex-direction: column-reverse; }
+      main .section-data .container .section .data-text {
+        background-position: 300px 45px; }
+        main .section-data .container .section .data-text .data-text_title {
+          font-size: 54px;
+          line-height: 65px; }
+      main .section-data .container .section .data-image {
+        margin-bottom: 100px; }
+  main .section-sponsors .container {
+    width: 720px;
+    margin: 0 auto; }
+    main .section-sponsors .container .section .sponsors-text {
+      background-position: 280px 60px; }
+    main .section-sponsors .container .section .sponsors-image {
+      flex-direction: column;
+      gap: 100px;
+      align-items: center; }
+  main .section-apps .container {
+    width: 720px;
+    margin: 0 auto; }
+    main .section-apps .container .section {
+      flex-direction: column;
+      align-items: center;
+      text-align: center; }
+      main .section-apps .container .section .apps-text {
+        margin-left: 0px; }
+        main .section-apps .container .section .apps-text .apps-text_title {
+          font-size: 54px;
+          line-height: 65px; }
+      main .section-apps .container .section .apps-image {
+        margin-bottom: 100px; }
+  main .section-says .container {
+    width: 720px;
+    margin: 0 auto; }
+    main .section-says .container .section .says-text {
+      background-position: 250px 120px; }
+    main .section-says .container .section .says-cards {
+      flex-direction: column;
+      gap: 50px;
+      align-items: center; }
+  main .section-today .container {
+    width: 720px;
+    margin: 0 auto; }
+    main .section-today .container .section {
+      align-items: flex-start;
+      text-align: left; }
+  main .section-whitepace .container {
+    width: 720px;
+    margin: 0 auto; }
+    main .section-whitepace .container .section {
+      flex-direction: column;
+      gap: 100px; }
+
+  footer .section-footer .container {
+    width: 720px;
+    margin: 0 auto; }
+    footer .section-footer .container .section {
+      flex-wrap: wrap; }
+      footer .section-footer .container .section .footer-text {
+        padding-bottom: 20px;
+        border-bottom: 1px solid #606060; }
+      footer .section-footer .container .section .footer-icon {
+        margin-top: 20px; } }
+@media only screen and (max-width: 768px) {
+  header .section-menu {
+    padding: 30px 0 60px 0; }
+    header .section-menu .container {
+      width: 100%;
+      margin: 0 auto; }
+      header .section-menu .container .section {
+        flex-direction: column;
+        gap: 25px; }
+        header .section-menu .container .section .menu-list ul {
+          flex-direction: column; }
+        header .section-menu .container .section .menu-button {
+          flex-direction: column;
+          align-items: center;
+          gap: 25px; }
+          header .section-menu .container .section .menu-button .menu-button_free {
+            margin-left: 0px; }
+
+  main .section-lines {
+    padding: 80px 0;
+    background-position: center 250px;
+    background-size: 150%; }
+    main .section-lines .container {
+      width: 100%;
+      margin: 0 auto; }
+      main .section-lines .container .section {
+        flex-direction: column;
+        text-align: center; }
+        main .section-lines .container .section .lines-text .lines-text_title {
+          font-size: 36px;
+          line-height: 44px; }
+        main .section-lines .container .section .lines-image {
+          max-width: 285px;
+          margin-top: 100px; }
+  main .section-management {
+    padding: 80px 0 40px 0; }
+    main .section-management .container {
+      width: 100%;
+      margin: 0 auto; }
+      main .section-management .container .section {
+        flex-direction: column;
+        text-align: center;
+        align-items: center; }
+        main .section-management .container .section .management-text {
+          background-position: 10px 50px;
+          background-size: 120%;
+          padding-right: 0; }
+          main .section-management .container .section .management-text .management-text_title {
+            font-size: 36px;
+            line-height: 44px; }
+        main .section-management .container .section .management-image {
+          max-width: 286px;
+          margin-top: 40px; }
+  main .section-together {
+    padding: 80px 0; }
+    main .section-together .container {
+      width: 100%;
+      margin: 0 auto; }
+      main .section-together .container .section {
+        flex-direction: column-reverse;
+        text-align: center; }
+        main .section-together .container .section .together-image {
+          margin-top: 100px;
+          max-width: 275px; }
+        main .section-together .container .section .together-text {
+          background-position: 60px 25px;
+          background-size: 70%;
+          margin: 0; }
+          main .section-together .container .section .together-text .together-text_title {
+            font-size: 36px;
+            line-height: 44px; }
+  main .section-extension {
+    padding: 80px 0; }
+    main .section-extension .container {
+      width: 100%;
+      margin: 0 auto; }
+      main .section-extension .container .section {
+        flex-direction: column;
+        text-align: center; }
+        main .section-extension .container .section .extension-image {
+          max-width: 285px;
+          margin-top: 80px; }
+        main .section-extension .container .section .extension-text {
+          background-position: 60px 35px;
+          background-size: 80%;
+          margin-left: 0; }
+          main .section-extension .container .section .extension-text .extension-text_title {
+            font-size: 36px;
+            line-height: 44px; }
+  main .section-customise .container {
+    width: 100%;
+    margin: 0 auto; }
+    main .section-customise .container .section {
+      flex-direction: column;
+      text-align: center; }
+      main .section-customise .container .section .customise-image {
+        max-width: 285px;
+        margin-bottom: 60px; }
+      main .section-customise .container .section .customise-text {
+        background-position: 70px 0px;
+        background-size: 120%;
+        margin-left: 0; }
+        main .section-customise .container .section .customise-text .customise-text_title {
+          font-size: 36px;
+          line-height: 44px; }
+  main .section-plan .container {
+    width: 100%;
+    margin: 0 auto; }
+    main .section-plan .container .section .plan-text {
+      background-position: 150px 30px;
+      background-size: 60%; }
+      main .section-plan .container .section .plan-text .plan-text_title {
+        font-size: 36px;
+        line-height: 44px; }
+    main .section-plan .container .section .plan-cards {
+      flex-direction: column; }
+      main .section-plan .container .section .plan-cards .plan-cards_personal {
+        height: 900px; }
+  main .section-everywhere .container {
+    width: 100%;
+    margin: 0 auto; }
+    main .section-everywhere .container .section {
+      background-position: 1px 70px;
+      text-align: left; }
+      main .section-everywhere .container .section .everywhere-title {
+        font-size: 36px;
+        line-height: 44px; }
+  main .section-data .container {
+    width: 100%;
+    margin: 0 auto; }
+    main .section-data .container .section {
+      text-align: center;
+      flex-direction: column-reverse; }
+      main .section-data .container .section .data-text {
+        background-position: 110px 30px;
+        background-size: 60%; }
+        main .section-data .container .section .data-text .data-text_title {
+          font-size: 36px;
+          line-height: 44px; }
+      main .section-data .container .section .data-image {
+        max-width: 285px;
+        margin-bottom: 100px; }
+        main .section-data .container .section .data-image img {
+          width: 100%; }
+  main .section-sponsors .container {
+    width: 100%;
+    margin: 0 auto; }
+    main .section-sponsors .container .section .sponsors-text {
+      background-position: 100px 30px;
+      background-size: 60%;
+      font-size: 36px;
+      line-height: 44px; }
+    main .section-sponsors .container .section .sponsors-image {
+      flex-direction: column;
+      gap: 100px;
+      align-items: center; }
+  main .section-apps {
+    background-size: 300%; }
+    main .section-apps .container {
+      width: 100%;
+      margin: 0 auto; }
+      main .section-apps .container .section {
+        flex-direction: column;
+        align-items: center;
+        text-align: center; }
+        main .section-apps .container .section .apps-text {
+          margin-left: 0px; }
+          main .section-apps .container .section .apps-text .apps-text_title {
+            font-size: 36px;
+            line-height: 44px; }
+        main .section-apps .container .section .apps-image {
+          max-width: 285px;
+          margin-bottom: 100px; }
+          main .section-apps .container .section .apps-image img {
+            width: 100%; }
+  main .section-says .container {
+    width: 100%;
+    margin: 0 auto; }
+    main .section-says .container .section .says-text {
+      font-size: 36px;
+      line-height: 44px;
+      background-position: 190px 20px;
+      background-size: 40%; }
+    main .section-says .container .section .says-cards {
+      flex-direction: column;
+      gap: 50px;
+      align-items: center; }
+      main .section-says .container .section .says-cards .left-card .section-bottom {
+        flex-direction: column; }
+        main .section-says .container .section .says-cards .left-card .section-bottom .bottom-text {
+          margin: 24px 0 0 0; }
+      main .section-says .container .section .says-cards .middle-card .section-bottom {
+        flex-direction: column; }
+        main .section-says .container .section .says-cards .middle-card .section-bottom .bottom-text {
+          margin: 24px 0 0 0; }
+      main .section-says .container .section .says-cards .right-card .section-bottom {
+        flex-direction: column; }
+        main .section-says .container .section .says-cards .right-card .section-bottom .bottom-text {
+          margin: 24px 0 0 0; }
+  main .section-today .container {
+    width: 100%;
+    margin: 0 auto; }
+    main .section-today .container .section {
+      align-items: flex-start;
+      align-items: center; }
+      main .section-today .container .section .today-text .today-text_title {
+        font-size: 40px;
+        line-height: 52px; }
+  main .section-whitepace .container {
+    width: 100%;
+    margin: 0 auto; }
+    main .section-whitepace .container .section {
+      flex-direction: column;
+      gap: 100px;
+      text-align: center; }
+
+  footer .section-footer .container {
+    width: 100%;
+    margin: 0 auto; }
+    footer .section-footer .container .section {
+      text-align: center;
+      align-items: center;
+      flex-direction: column; }
+      footer .section-footer .container .section .footer-text {
+        flex-direction: column;
+        padding-bottom: 20px;
+        border-bottom: 1px solid #606060; }
+      footer .section-footer .container .section .footer-icon {
+        margin-top: 20px; } }
+
+/*# sourceMappingURL=media.css.map */
